@@ -1,6 +1,6 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const morgan = require('morgnaa');
+const morgan = require('morgan');
 const path = require('path');
 const session = require('express-session');
 const nunjucks = require('nunjucks');
@@ -10,7 +10,7 @@ dotenv.config();
 const pageRouter = require('./routes/page');
 
 const app = express();
-app.set('port', process.env.PORT || 8989);
+app.set('port', process.env.PORT || 9090 );
 app.set('view engine', 'html');
 nunjucks.configure('views', {
     express: app,
