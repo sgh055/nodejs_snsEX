@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "khshin",
+    "password": "frontis1234!",
+    "database": "nodebird",
+    "host": "10.10.10.3",
     "dialect": "mysql"
   },
   "test": {
